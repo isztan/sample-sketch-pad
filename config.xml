@@ -6,19 +6,21 @@
     <name>Sketch Pad</name>
 
     <description>
-		Sample Application to use HTML5 canvas to draw using either touch or mouse or accelerometer.
+        Sample Application to use HTML5 canvas to draw using either touch or mouse or accelerometer.
     </description>
 
-    <author href="http://intel.com" email="rakshith.krishnappa@intel.com">
-        Rakshith Krishnappa
+    <author href="http://software.intel.com/html5">
+        Intel Corporation
     </author>
 
+<!-- let phonegap build use latest
     <preference name="phonegap-version" value="2.1.0" />
+-->
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
-	<preference name="webviewbounce" value="false" />
-	
+    <preference name="webviewbounce" value="false" />
+
     <icon src="icon.png" />
-	<gap:splash src="splash.png" />
+    <gap:splash src="splash.png" />
 </widget>
